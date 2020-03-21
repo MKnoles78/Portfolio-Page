@@ -58,6 +58,10 @@ main {
   border: none;
 }
 
+#contact-info {
+  font-size: small;
+}
+
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
@@ -135,7 +139,7 @@ main {
   color: #4aaaa5;
 }
 
-#about-image {
+#about-self-image {
   /* Positioning */
   float: left;
 
