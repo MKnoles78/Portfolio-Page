@@ -1,10 +1,10 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
   /* Typography */
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Mouse Memoirs', "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url("../imgs/wood.jpg");
 }
 
 html {
@@ -30,27 +30,24 @@ main {
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  color: orange;
+  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
   font-weight: bold;
 }
 
 /* NAV START */
 #logo {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
 
   /* Typography */
-  font-size: 24px;
+  font-size: 48px;
   font-weight: bold;
-  color: #fff;
-
-  /* Visual */
-  background: #4aaaa5;
+  color:orange;;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: orange;
 }
 
 .navbar {
@@ -59,13 +56,33 @@ main {
 }
 
 #contact-info {
-  font-size: small;
+  font-size: 24px;
 }
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: grey;
+  color: wheat;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+}
+.nav-link{
+  font-size: 28px;
+  color: orange;
+}
+
+p {
+  font-size: 24px;
+}
+
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: orange;
   }
 }
 /* END NAV */
@@ -121,7 +138,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: orange;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -131,12 +148,12 @@ main {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
 
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color:  orange;
 }
 
 #about-self-image {
@@ -177,7 +194,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: orange;
   border: 0;
 }
 
