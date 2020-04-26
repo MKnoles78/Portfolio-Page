@@ -1,7 +1,7 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
   /* Typography */
-  font-family: 'Mouse Memoirs', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 
   /* Visual */
   background-image: url("../imgs/wood.jpg");
@@ -30,33 +30,31 @@ main {
 
 .block-header {
   /* Typography */
-  color: orange;
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
+  color: rgba(0,0,0,.5);
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-weight: bold;
 }
 
 /* NAV START */
 #logo {
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
-
-  /* Typography */
-  font-size: 48px;
+  color: rgba(0,0,0,.5);
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-weight: bold;
-  color:orange;;
+  font-size: 48px;
+
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: orange;
+.navbar-nav > li > a:hover {
+  color: rgba(0,0,0,.5);
 }
-
-.navbar {
-  background: white;
-  border: none;
+  
 }
 
 #contact-info {
   font-size: 24px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  color: rgba(0,0,0,.5);
 }
 
 .text-block {
@@ -64,25 +62,39 @@ main {
   bottom: 20px;
   right: 20px;
   background-color: grey;
-  color: wheat;
+  color: rgba(0,0,0,.5);
   padding-left: 20px;
   padding-right: 20px;
   font-size: 24px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 }
 .nav-link{
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-size: 28px;
-  color: orange;
+  color: rgba(0,0,0,.5);
 }
 
 p {
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-size: 24px;
+  color: rgba(0,0,0,.5);
+  
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 50%;
+}
+
+#navbar-head {
+  background-color: grey;
 }
 
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: orange;
+    background-color: rgba(0,0,0,.5);
   }
 }
 /* END NAV */
@@ -92,6 +104,7 @@ p {
 .connect-header {
   /* Typography */
   font-size: 25px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 }
 
 .connect-photo {
@@ -129,7 +142,7 @@ p {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: #rgba(0,0,0,.5);
 }
 
 .two-toned-footer-color {
@@ -138,7 +151,7 @@ p {
   padding-top: 3px;
 
   /* Visual */
-  background-color: orange;
+  background-color: rgba(0,0,0,.5);
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -148,12 +161,12 @@ p {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color:  orange;
+  color:  rgba(0,0,0,.5);
 }
 
 #about-self-image {
@@ -189,12 +202,12 @@ p {
   padding: 15px 30px;
   font-size: 16px;
   font-weight: lighter;
-
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   /* Typography */
   color: #fff;
 
   /* Visual */
-  background-color: orange;
+  background-color: rgba(0,0,0,.5);
   border: 0;
 }
 
