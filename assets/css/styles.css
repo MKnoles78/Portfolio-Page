@@ -1,7 +1,7 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
   /* Typography */
-  font-family: 'Mouse Memoirs', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 
   /* Visual */
   background-image: url("../imgs/wood.jpg");
@@ -20,9 +20,10 @@ main {
   margin: 80px 0;
 }
 
+
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
+  background-color: rgb(238, 158, 10);
 
   padding: 30px;
   margin-bottom: 30px;
@@ -30,33 +31,29 @@ main {
 
 .block-header {
   /* Typography */
-  color: orange;
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
+  color: rgba(0,0,0,.5);
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-weight: bold;
 }
 
 /* NAV START */
 #logo {
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
-
-  /* Typography */
-  font-size: 48px;
+  color: rgba(0,0,0,.5);
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-weight: bold;
-  color:orange;;
+  font-size: 48px;
+
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: orange;
-}
-
-.navbar {
-  background: white;
-  border: none;
+.navbar-nav > li > a:hover {
+  color: rgba(0,0,0,.5);
 }
 
 #contact-info {
   font-size: 24px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  color: rgba(0,0,0,.5);
 }
 
 .text-block {
@@ -64,25 +61,63 @@ main {
   bottom: 20px;
   right: 20px;
   background-color: grey;
-  color: wheat;
+  color: rgba(0,0,0,.5);
   padding-left: 20px;
   padding-right: 20px;
   font-size: 24px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 }
 .nav-link{
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-size: 28px;
-  color: orange;
+  color: rgba(0,0,0,.5);
 }
 
 p {
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   font-size: 24px;
+  color: rgba(0,0,0,.5);
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 50%;
 }
 
+.text-muted {
+  color: white!important;
+}
+
+.bg-light {
+  background-color: rgb(238, 158, 10)!important;
+}
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: rgb(238, 158, 10);
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.btn-link {
+  font-weight: 600;
+  color: rgb(238, 158, 10);
+  background-color: transparent;
+  font-size: x-large;
+}
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: orange;
+    background-color:rgb(238, 158, 10);
   }
 }
 /* END NAV */
@@ -92,6 +127,7 @@ p {
 .connect-header {
   /* Typography */
   font-size: 25px;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 }
 
 .connect-photo {
@@ -122,6 +158,7 @@ p {
 
   /* Visual */
   background-color: #666;
+  color: white;
 }
 
 .text-muted-footer {
@@ -129,7 +166,7 @@ p {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: white;
 }
 
 .two-toned-footer-color {
@@ -138,7 +175,7 @@ p {
   padding-top: 3px;
 
   /* Visual */
-  background-color: orange;
+  background-color: rgba(0,0,0,.5);
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -148,12 +185,12 @@ p {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: 'Mouse Memoirs', Times, "Times New Roman", serif;
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
 
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color:  orange;
+  color:  rgba(0,0,0,.5);
 }
 
 #about-self-image {
@@ -189,12 +226,12 @@ p {
   padding: 15px 30px;
   font-size: 16px;
   font-weight: lighter;
-
+  font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
   /* Typography */
   color: #fff;
 
   /* Visual */
-  background-color: orange;
+  background-color: rgba(0,0,0,.5);
   border: 0;
 }
 
